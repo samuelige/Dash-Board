@@ -1,5 +1,5 @@
-*{
-  font-family: 'Poppins', sans-serif;
+* {
+  font-family: "Poppins", sans-serif;
 }
 
 .main-aside-container {
@@ -29,7 +29,6 @@
   width: 40%;
   border-radius: 50%;
   cursor: pointer;
-  
 }
 
 .profile-container .profile > .profileText1 {
@@ -69,6 +68,16 @@
 }
 
 /* Nav Bar */
+
+.Nav-hi-john {
+  /* visibility: hidden; */
+  display: none;
+}
+
+.navbar-toggler {
+  border: none;
+  outline-offset: none;
+}
 .form-inline > .search {
   width: 50em;
 }
@@ -101,12 +110,12 @@
 }
 
 .total-sales-header > h3,
-.recent-orders-header > h3{
+.recent-orders-header > h3 {
   float: left;
   cursor: pointer;
 }
 
-.total-sales-header small{
+.total-sales-header small {
   float: right;
   color: #c4c4c4;
   cursor: pointer;
@@ -135,7 +144,6 @@
 .sale-card-texts {
   margin-top: 60px;
 }
-
 
 /*  */
 .sale-links {
@@ -217,7 +225,6 @@
   justify-items: center;
 }
 
-
 .top-customers-aside > .top-customers-aside-items > .email {
   margin-top: -6px;
 }
@@ -226,17 +233,12 @@
   font-size: 13px;
   padding-top: 8px;
   padding-left: 4px;
- 
 }
 
- .top-customers-center-items {
+.top-customers-center-items {
   text-align: end;
-
 }
 
 .top-customers-aside-items > .call h6 {
   font-size: 14px;
 }
-
-
-

@@ -64,6 +64,16 @@
 }
 
 @media only screen and (max-width: 540px) {
+  .Nav-hi-john {
+    display: block;
+    font-size: medium;
+    font-weight: bold;
+    margin-right: auto;
+  }
+
+  .navbar-aside {
+    margin-right: auto;
+  }
   .aside-links-items {
     text-align: center;
     width: 20%;
