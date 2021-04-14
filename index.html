@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Css File -->
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <!-- Custom Css File -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- google Font CDN -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Custom Css Media Queries -->
+    <link rel="stylesheet" href="./css/mediaqueries.css">
+    <title>Dash Board</title>
+</head>
+<body>
+    <div class="row no-gutters flex-column-reverse flex-lg-row">
+        <div class="col-xm-12 col-sm-12 col-md-12 col-lg-1 main-aside-container ">
+            <div class="row">
+                <div class="col-xm-12 col-sm-12 col-md-12 col-lg-12 profile-container">
+                    <div class="row profile">
+                        <div class="col-xm-12 col-sm-12 col-md-12 col-lg-12 profile-image-container">
+                            <img class="profile-image" src="./images/profile-1.jpg" alt="">
+                        </div>
+                        <div class="col-xm-12 col-sm-12 col-md-12 col-lg-12 profileText1">
+                            <h3>Janeth</h3>
+                            <small>Logout</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 aside-links-container">
+                    <div class="row aside-links">
+                        <div class="col-xs-3 col-sm-2 col-md-2 col-lg-12 aside-links-items">
+                            <img class="aside-links-image image-fluid" src="./svg/dashBoard.svg" alt="">
+                            <a class="nav-link aside-links-tag" href="#">Dashboard</a>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-12 aside-links-items">
+                            <img class="aside-links-image img-fluid" src="./svg/shopping-basket.svg" alt="">
+                            <a class="nav-link aside-links-tag" href="#">Products</a>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-12 aside-links-items aside-links-items_order ">
+                            <img class="aside-links-image aside-links-image-order img-fluid" src="./svg/packing.svg" alt="">
+                            <a class="nav-link aside-links-tag" href="#">Orders</a>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-12 aside-links-items">
+                            <img class="aside-links-image img-fluid" src="./svg/user.svg" alt="">
+                            <a class="nav-link aside-links-tag" href="#">Customers</a>
+                        </div>
+                        <div class="col-xs-3 col-sm-2 col-md-2 col-lg-12 aside-links-items">
+                            <img class="aside-links-image img-fluid" src="./svg/settings.svg" alt="">
+                            <a class="nav-link aside-links-tag" href="#">Settings</a>
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-11 second-col">
+            <nav class="navbar navbar-expand-lg navbar-light  ml-2 navbar-container">
+                <form class="form-inline my-2 my-lg-0 ">
+                    <input class="form-control mr-sm-2 search pl-3 " type="text" placeholder="Search by name">
+                </form>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                
+              
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                  <ul class="navbar-nav navbar-aside ml-5">
+                    <li class="nav-item navbar-aside-items active d-flex ">
+                      <img src="./svg/user.svg" alt="User icon">
+                      <a class="nav-link" href="#">John Doe</a>
+                    </li>
+                    <li class="nav-item d-flex logout-link">
+                        <img src="./svg/padlock.svg" alt="User icon">
+                        <a class="nav-link " href="#">Logout</a>
+                    </li>
+                  </ul>
+                 
+                </div>
+            </nav>
+
+            <section class="container multiple-container">
+                <div class="row multiple-container-row ">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 total-sales-container ipadview">
+                        <div class="total-sales-header">
+                            <h3 >Total Sales</h3>
+                            <small class="total-sales-more">more</small>
+                        </div>
+                        <div class="card text-white sales-card-conatiner">
+                            <img class="card-img" src="./svg/sales background.svg" alt=" sales Card image">
+                            <div class="card-img-overlay sale-card-texts">
+                              <small class="card-title">This year</small>
+                              <h1 class="card-text">&#8358;50,000</h1>
+                            </div>
+                        </div>
+                        <div class="row sale-links ">
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3  sale-links-div ">
+                                <div class="sales-links-items d-flex flex-column">
+                                    <img class="sales-links-image image-fluid" src="./svg/add.svg" alt="">
+                                    <a class=" sales-links-tag" href="#">Add Project</a>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 sale-links-div">
+                                <div class="sales-links-items d-flex flex-column">
+                                    <img class="sales-links-image image-fluid" src="./svg/payment.svg" alt="">
+                                    <a class=" sales-links-tag" href="#">Payments</a>
+                                </div>
+                               
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 sale-links-div">
+                                <div class="sales-links-items d-flex flex-column">
+                                    <img class="sales-links-image image-fluid" src="./svg/user.svg" alt="">
+                                    <a class=" sales-links-tag" href="#">Customers</a>
+                                </div>
+                                
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 sale-links-div">
+                                <div class="sales-links-items d-flex flex-column">
+                                    <img class="sales-links-image image-fluid" src="./svg/myweb.svg" alt="">
+                                    <a class=" sales-links-tag" href="#">My Website</a>
+                                </div>
+                            </div>
+    
+                        </div>
+                        <div class="container">
+                            <div class="total-sales-header recent-orders-header ">
+                                <h3>Recent Orders</h3>
+                                <small>more</small>
+                            </div>
+                            <div class="row recent-orders-items">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 recent-orders-items-div recent-orders-mobileView">
+                                    <img class="recent-orders-links-image image-fluid" src="./svg/vitaFoam.svg" alt="">
+                                </div>
+                                <div class="col-xm-6 col-sm-6 col-md-6 col-lg-6 recent-orders-text recent-orders-items-div recent-orders-mobileView">
+                                    <h3>Vita Foam <span>(4 units)</span></h3>
+                                    <p>5 hours ago</p>
+                                </div>
+                                <div class="col-xm-3 col-sm-3 col-md-3 col-lg-3 recent-orders-amount recent-orders-items-div recent-orders-mobileView">
+                                    <h1 class="card-text">&#8358;500</h1>
+                                </div>
+
+                            </div>
+                            <div class="row recent-orders-items">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 recent-orders-items-div recent-orders-mobileView">
+                                    <img class="recent-orders-links-image image-fluid" src="./svg/sofaChair.svg" alt="">
+                                </div>
+                                <div class="col-xm-6 col-sm-6 col-md-6 col-lg-6 recent-orders-text recent-orders-items-div recent-orders-mobileView">
+                                    <h3>Sofa Chair <span>(4 units)</span></h3>
+                                    <p>5 hours ago</p>
+                                </div>
+                                <div class="col-xm-3 col-sm-3 col-md-3 col-lg-3 recent-orders-amount recent-orders-items-div recent-orders-mobileView">
+                                    <h1 class="card-text">&#8358;500</h1>
+                                </div>
+
+                            </div>
+                            <div class="row recent-orders-items">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 recent-orders-items-div recent-orders-mobileView">
+                                    <img class="recent-orders-links-image image-fluid" src="./svg/vitaFoam.svg" alt="">
+                                </div>
+                                <div class="col-xm-6 col-sm-6 col-md-6 col-lg-6 recent-orders-text recent-orders-items-div recent-orders-mobileView">
+                                    <h3>Vita Foam <span>(4 units)</span></h3>
+                                    <p>5 hours ago</p>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 recent-orders-amount recent-orders-items-div recent-orders-mobileView">
+                                    <h1 class="card-text">&#8358;500</h1>
+                                </div>
+
+                            </div>
+                            <div class="row recent-orders-items">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 recent-orders-items-div recent-orders-mobileView">
+                                    <img class="recent-orders-links-image image-fluid" src="./svg/sofaChair.svg" alt="">
+                                </div>
+                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 recent-orders-text recent-orders-items-div recent-orders-mobileView">
+                                    <h3>Sofa Chair <span>(4 units)</span></h3>
+                                    <p>5 hours ago</p>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 recent-orders-amount recent-orders-items-div recent-orders-mobileView">
+                                    <h1 class="card-text">&#8358;500</h1>
+                                </div>
+
+                            </div>
+                            <div class="row recent-orders-items">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 recent-orders-items-div recent-orders-mobileView">
+                                    <img class="recent-orders-links-image image-fluid" src="./svg/vitaFoam.svg" alt="">
+                                </div>
+                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 recent-orders-text recent-orders-items-div recent-orders-mobileView">
+                                    <h3>Vita Foam <span>(4 units)</span></h3>
+                                    <p>5 hours ago</p>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 recent-orders-amount recent-orders-items-div recent-orders-mobileView">
+                                    <h1 class="card-text">&#8358;500</h1>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 ipadview">
+                        <div class="container">
+                            <div class="total-sales-header performance-header ">
+                                <h3>Performance Chart</h3>
+                            </div>
+                            
+                            <div class="card text-white sales-card-conatiner performance-card-container">
+                                <img class="card-img image-fluid performance-card-img" src="./svg/performanceChart.svg" alt=" sales Card image">
+                            </div>
+                            <div class="container performance-items-container">
+                                <div class="total-sales-header recent-orders-header performance-payment-header ">
+                                    <h3>Card Payments</h3>
+                                </div>
+    
+                                <div class="row recent-orders-items">
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 recent-orders-items-div">
+                                        <img class="recent-orders-links-image image-fluid" src="./svg/arrow-icon.svg" alt="arrow icon">
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 recent-orders-text recent-orders-items-div">
+                                        <h3>John Doe </h3>
+                                        <p>5 hours ago</p>
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 recent-orders-amount recent-orders-items-div">
+                                        <h1 class="card-text">&#8358;500</h1>
+                                    </div>
+    
+                                </div>
+                                <div class="row recent-orders-items">
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 recent-orders-items-div">
+                                        <img class="recent-orders-links-image image-fluid"src="./svg/arrow-icon.svg" alt="arrow icon">
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 recent-orders-text recent-orders-items-div">
+                                        <h3>John Doe</h3>
+                                        <p>5 hours ago</p>
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 recent-orders-amount recent-orders-items-div">
+                                        <h1 class="card-text">&#8358;500</h1>
+                                    </div>
+    
+                                </div>
+                                <div class="row recent-orders-items">
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 recent-orders-items-div ">
+                                        <img class="recent-orders-links-image image-fluid" src="./svg/arrow-icon.svg" alt="arrow icon">
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 recent-orders-text recent-orders-items-div">
+                                        <h3>John Doe </h3>
+                                        <p>5 hours ago</p>
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 recent-orders-amount recent-orders-items-div">
+                                        <h1 class="card-text">&#8358;500</h1>
+                                    </div>
+    
+                                </div>
+                                <div class="row recent-orders-items">
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 recent-orders-items-div">
+                                        <img class="recent-orders-links-image image-fluid" src="./svg/arrow-icon.svg" alt="arrow icon">
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 recent-orders-text recent-orders-items-div">
+                                        <h3>John Doe </h3>
+                                        <p>5 hours ago</p>
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 recent-orders-amount recent-orders-items-div">
+                                        <h1 class="card-text">&#8358;500</h1>
+                                    </div>
+    
+                                </div>
+                                <div class="row recent-orders-items">
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 recent-orders-items-div">
+                                        <img class="recent-orders-links-image image-fluid" src="./svg/arrow-icon.svg" alt="arrow icon">
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 recent-orders-text recent-orders-items-div">
+                                        <h3>John Doe</h3>
+                                        <p>5 hours ago</p>
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 recent-orders-amount recent-orders-items-div">
+                                        <h1 class="card-text">&#8358;500</h1>
+                                    </div>
+    
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 ipadview">
+                        <div class="total-sales-header top-customers-header ">
+                            <h3 >Top Customers</h3>
+                            <small class="total-sales-more top-customers-more">more</small>
+                        </div>
+                        <div class="row recent-orders-items top-customers-items">
+                            <div class="col-xs-3 col-sm-3 col-md-4 col-lg-2 recent-orders-items-div recent-orders-items-mobileView">
+                                <img class="recent-orders-links-image image-fluid" src="./svg/johnDoe1.svg" alt="">
+                            </div>
+                            <div class="col-xm-6 col-sm-6 col-md-4 col-lg-4 recent-orders-text top-customers-center-items recent-orders-items-div">
+                                <h3>John Doe</h3>
+                                <p>10 orders</p>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-4 col-lg-6 recent-orders-amount top-customers-aside recent-orders-items-div recent-orders-items-mobileView2">
+                                <div class="top-customers-aside-items">
+                                    <div class="d-flex call">
+                                        <img src="./svg/call.svg" class="img-fluid call-icon" alt="call icon">
+                                        <h6>call</h6>
+                                    </div>
+                                    <div class="d-flex email">
+                                        <img src="./svg/email.svg" class="img-fluid email-icon" alt="email icon">
+                                        <h6>Email</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row recent-orders-items top-customers-items">
+                            <div class="col-xs-3 col-sm-3 col-md-4 col-lg-2 recent-orders-items-div recent-orders-items-mobileView">
+                                <img class="recent-orders-links-image image-fluid" src="./svg/johnDoe2.svg" alt="">
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 recent-orders-text top-customers-center-items recent-orders-items-div">
+                                <h3>John Doe</h3>
+                                <p>10 orders</p>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-4 col-lg-6 recent-orders-amount top-customers-aside recent-orders-items-div recent-orders-items-mobileView2">
+                                <div class="top-customers-aside-items">
+                                    <div class="d-flex call">
+                                        <img src="./svg/call.svg" class="img-fluid call-icon" alt="call icon">
+                                        <h6>call</h6>
+                                    </div>
+                                    <div class="d-flex email">
+                                        <img src="./svg/email.svg" class="img-fluid email-icon" alt="email icon">
+                                        <h6>Email</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row recent-orders-items top-customers-items">
+                            <div class="col-xs-3 col-sm-3 col-md-4 col-lg-2 recent-orders-items-div recent-orders-items-mobileView">
+                                <img class="recent-orders-links-image image-fluid" src="./svg/johnDoe3.svg" alt="">
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 recent-orders-text top-customers-center-items recent-orders-items-div">
+                                <h3>John Doe</h3>
+                                <p>10 orders</p>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-4 col-lg-6 recent-orders-amount top-customers-aside recent-orders-items-div recent-orders-items-mobileView2">
+                                <div class="top-customers-aside-items">
+                                    <div class="d-flex call">
+                                        <img src="./svg/call.svg" class="img-fluid call-icon" alt="call icon">
+                                        <h6>call</h6>
+                                    </div>
+                                    <div class="d-flex email">
+                                        <img src="./svg/email.svg" class="img-fluid email-icon" alt="email icon">
+                                        <h6>Email</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row recent-orders-items top-customers-items">
+                            <div class="col-xs-3 col-sm-3 col-md-4 col-lg-2 recent-orders-items-div recent-orders-items-mobileView">
+                                <img class="recent-orders-links-image image-fluid" src="./svg/johnDoe4.svg" alt="">
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 recent-orders-text top-customers-center-items recent-orders-items-div">
+                                <h3>John Doe</h3>
+                                <p>10 orders</p>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-4 col-lg-6 recent-orders-amount top-customers-aside recent-orders-items-div recent-orders-items-mobileView2">
+                                <div class="top-customers-aside-items">
+                                    <div class="d-flex call">
+                                        <img src="./svg/call.svg" class="img-fluid call-icon" alt="call icon">
+                                        <h6>call</h6>
+                                    </div>
+                                    <div class="d-flex email">
+                                        <img src="./svg/email.svg" class="img-fluid email-icon" alt="email icon">
+                                        <h6>Email</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row recent-orders-items top-customers-items">
+                            <div class="col-xs-3 col-sm-3 col-md-4 col-lg-2 recent-orders-items-div recent-orders-items-mobileView">
+                                <img class="recent-orders-links-image image-fluid" src="./svg/johnDoe1.svg" alt="">
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 recent-orders-text top-customers-center-items recent-orders-items-div">
+                                <h3>John Doe</h3>
+                                <p>10 orders</p>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-4 col-lg-6 recent-orders-amount top-customers-aside recent-orders-items-div recent-orders-items-mobileView2">
+                                <div class="top-customers-aside-items">
+                                    <div class="d-flex call">
+                                        <img src="./svg/call.svg" class="img-fluid call-icon" alt="call icon">
+                                        <h6>call</h6>
+                                    </div>
+                                    <div class="d-flex email">
+                                        <img src="./svg/email.svg" class="img-fluid email-icon" alt="email icon">
+                                        <h6>Email</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row recent-orders-items top-customers-items">
+                            <div class="col-xs-3 col-sm-3 col-md-4 col-lg-2 recent-orders-items-div recent-orders-items-mobileView">
+                                <img class="recent-orders-links-image image-fluid" src="./svg/johnDoe2.svg" alt="">
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 recent-orders-text top-customers-center-items recent-orders-items-div">
+                                <h3>John Doe</h3>
+                                <p>10 orders</p>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-4 col-lg-6 recent-orders-amount top-customers-aside recent-orders-items-div recent-orders-items-mobileView2">
+                                <div class="top-customers-aside-items">
+                                    <div class="d-flex call">
+                                        <img src="./svg/call.svg" class="img-fluid call-icon" alt="call icon">
+                                        <h6>call</h6>
+                                    </div>
+                                    <div class="d-flex email">
+                                        <img src="./svg/email.svg" class="img-fluid email-icon" alt="email icon">
+                                        <h6>Email</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row recent-orders-items top-customers-items">
+                            <div class="col-xs-3 col-sm-3 col-md-4 col-lg-2 recent-orders-items-div recent-orders-items-mobileView">
+                                <img class="recent-orders-links-image image-fluid" src="./svg/johnDoe3.svg" alt="">
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 recent-orders-text top-customers-center-items recent-orders-items-div">
+                                <h3>John Doe</h3>
+                                <p>10 orders</p>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-4 col-lg-6 recent-orders-amount top-customers-aside recent-orders-items-div recent-orders-items-mobileView2">
+                                <div class="top-customers-aside-items">
+                                    <div class="d-flex call">
+                                        <img src="./svg/call.svg" class="img-fluid call-icon" alt="call icon">
+                                        <h6>call</h6>
+                                    </div>
+                                    <div class="d-flex email">
+                                        <img src="./svg/email.svg" class="img-fluid email-icon" alt="email icon">
+                                        <h6>Email</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row recent-orders-items top-customers-items">
+                            <div class="col-xs-3 col-sm-3 col-md-4 col-lg-2 recent-orders-items-div recent-orders-items-mobileView">
+                                <img class="recent-orders-links-image image-fluid" src="./svg/johnDoe1.svg" alt="">
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 recent-orders-text top-customers-center-items recent-orders-items-div">
+                                <h3>John Doe</h3>
+                                <p>10 orders</p>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-4 col-lg-6 recent-orders-amount top-customers-aside recent-orders-items-div recent-orders-items-mobileView2">
+                                <div class="top-customers-aside-items">
+                                    <div class="d-flex call">
+                                        <img src="./svg/call.svg" class="img-fluid call-icon" alt="call icon">
+                                        <h6>call</h6>
+                                    </div>
+                                    <div class="d-flex email">
+                                        <img src="./svg/email.svg" class="img-fluid email-icon" alt="email icon">
+                                        <h6>Email</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row recent-orders-items top-customers-items">
+                            <div class="col-xs-3 col-sm-3 col-md-4 col-lg-2 recent-orders-items-div recent-orders-items-mobileView">
+                                <img class="recent-orders-links-image image-fluid" src="./svg/johnDoe4.svg" alt="">
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 recent-orders-text top-customers-center-items recent-orders-items-div">
+                                <h3>John Doe</h3>
+                                <p>10 orders</p>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-4 col-lg-6 recent-orders-amount top-customers-aside recent-orders-items-div recent-orders-items-mobileView2">
+                                <div class="top-customers-aside-items">
+                                    <div class="d-flex call">
+                                        <img src="./svg/call.svg" class="img-fluid call-icon" alt="call icon">
+                                        <h6>call</h6>
+                                    </div>
+                                    <div class="d-flex email">
+                                        <img src="./svg/email.svg" class="img-fluid email-icon" alt="email icon">
+                                        <h6>Email</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row recent-orders-items top-customers-items">
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-2 recent-orders-items-div recent-orders-items-mobileView">
+                                <img class="recent-orders-links-image image-fluid" src="./svg/johnDoe3.svg" alt="">
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 recent-orders-text top-customers-center-items recent-orders-items-div">
+                                <h3>John Doe</h3>
+                                <p>10 orders</p>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-6 recent-orders-amount top-customers-aside recent-orders-items-div recent-orders-items-mobileView2">
+                                <div class="top-customers-aside-items">
+                                    <div class="d-flex call">
+                                        <img src="./svg/call.svg" class="img-fluid call-icon" alt="call icon">
+                                        <h6>call</h6>
+                                    </div>
+                                    <div class="d-flex email">
+                                        <img src="./svg/email.svg" class="img-fluid email-icon" alt="email icon">
+                                        <h6>Email</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </section >
+        </div>
+    </div>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>

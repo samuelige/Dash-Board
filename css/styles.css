@@ -1,0 +1,242 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-aside-container {
+  background: #f2f2f2;
+  border-top-right-radius: 75px;
+  border-bottom-right-radius: 75px;
+  overflow: hidden;
+}
+.profile-container {
+  padding: 71% 0px 50px 0px;
+  background: url("../svg/profilebackground.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  margin-bottom: 50px;
+}
+
+.profile-container > .profile {
+  text-align: center;
+}
+
+.profile-image-container {
+  margin-top: 0px;
+}
+
+.profile-image {
+  width: 40%;
+  border-radius: 50%;
+  cursor: pointer;
+  
+}
+
+.profile-container .profile > .profileText1 {
+  line-height: 5px;
+  cursor: pointer;
+}
+
+.profile-container .profile > .profileText1 h3 {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.profile-container .profile > .profileText1 > small {
+  color: #fff;
+}
+
+.aside-links-container {
+  background: transparent;
+}
+
+.aside-links {
+  justify-content: center;
+}
+
+.aside-links-items {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.aside-links-tag {
+  color: #000000;
+  font-size: 15px;
+}
+
+/* Nav Bar */
+.form-inline > .search {
+  width: 50em;
+}
+
+.form-inline > .search,
+.logout-link {
+  border-radius: 50px;
+  box-shadow: 4px 6px 10px #cbced1, -13px -13px 20px #ffffff;
+}
+
+.navbar-aside > .logout-link {
+  margin-left: 50px;
+  padding: 0 6px;
+}
+
+/* Multiple container */
+.multiple-container {
+  padding-top: 50px;
+}
+
+/* Total Sales */
+.total-sales-header {
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.total-sales-header > h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.total-sales-header > h3,
+.recent-orders-header > h3{
+  float: left;
+  cursor: pointer;
+}
+
+.total-sales-header small{
+  float: right;
+  color: #c4c4c4;
+  cursor: pointer;
+}
+
+.sales-card-conatiner {
+  border: none;
+  margin-bottom: 50px;
+}
+
+/* clearing FLoat */
+.total-sales-header:before,
+.total-sales-header:after {
+  content: " ";
+  display: table;
+}
+
+.total-sales-header:after {
+  clear: both;
+}
+
+.total-sales-header {
+  zoom: 1;
+}
+
+.sale-card-texts {
+  margin-top: 60px;
+}
+
+
+/*  */
+.sale-links {
+  margin-top: 20px;
+}
+
+.sales-links-items {
+  border-radius: 10px;
+  box-shadow: 4px 6px 10px #cbced1, -13px -13px 20px #ffffff;
+  text-align: center;
+  padding: 3px;
+}
+
+.sales-links-tag {
+  font-size: 10px;
+  color: #000000;
+}
+
+.sales-links-tag:hover {
+  text-decoration: none;
+}
+
+.sales-links-items > .sales-links-image {
+  margin: auto;
+}
+
+.sales-links-image {
+  width: 30%;
+}
+
+/*  */
+.recent-orders-header {
+  margin-top: 70px;
+  margin-bottom: 43px;
+}
+
+.recent-orders-items {
+  margin-top: 30px;
+}
+.recent-orders-header > h3 {
+  font-size: 18px;
+}
+
+.recent-orders-text > h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.recent-orders-text > h3 > span {
+  color: #c4c4c4;
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+.recent-orders-text > p {
+  font-size: 14px;
+}
+
+.recent-orders-amount > h1 {
+  font-size: 15px;
+  color: #d6a106;
+}
+
+.performance-payment-header {
+  margin-top: 23%;
+}
+
+.top-customers-header > .top-customers-more {
+  /* padding-top: 5%; */
+}
+
+.top-customers-center-items > h3 {
+  font-size: 13px;
+}
+
+.top-customers-aside > .top-customers-aside-items {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+
+.top-customers-aside > .top-customers-aside-items > .email {
+  margin-top: -6px;
+}
+
+.top-customers-aside > .top-customers-aside-items > .email > h6 {
+  font-size: 13px;
+  padding-top: 8px;
+  padding-left: 4px;
+ 
+}
+
+ .top-customers-center-items {
+  text-align: end;
+
+}
+
+.top-customers-aside-items > .call h6 {
+  font-size: 14px;
+}
+
+
+

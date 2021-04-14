@@ -1,0 +1,310 @@
+@media only screen and (max-width: 768px) {
+  .main-aside-container {
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .sales-links-tag {
+    font-size: 11px;
+  }
+
+  .sale-card-texts {
+    margin-top: 150px;
+    padding-left: 40px;
+  }
+
+  .sale-card-texts > .card-title {
+    font-size: 25px;
+  }
+
+  .sale-card-texts > .card-text {
+    font-size: 70px;
+  }
+
+  .sale-card-texts > .card .aside-links-items_order {
+    margin-top: 15px;
+  }
+
+  .profile-container,
+  .form-inline > .search {
+    display: none;
+  }
+
+  .navbar-aside > .logout-link {
+    border-radius: 50px;
+    box-shadow: none;
+    padding: 0;
+    margin-left: 0;
+  }
+
+  .recent-orders-items-div {
+    width: 32%;
+  }
+
+  .recent-orders-amount > .card-text {
+    text-align: end;
+  }
+
+  .performance-header,
+  .top-customers-header {
+    margin-top: 50px;
+  }
+
+  .performance-payment-header {
+    margin-top: 3%;
+  }
+
+  .top-customers-center-items {
+    text-align: start;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .aside-links-items {
+    text-align: center;
+    width: 20%;
+  }
+
+  .sale-card-texts {
+    margin-top: 80px;
+    padding-left: 10px;
+  }
+
+  .sale-card-texts > .card-text {
+    font-size: 50px;
+  }
+
+  .sale-links-div {
+    width: 25%;
+  }
+
+  .recent-orders-items-div {
+    width: 32%;
+  }
+
+  .recent-orders-amount > .card-text {
+    text-align: end;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .aside-links-items {
+    text-align: center;
+    width: 19%;
+    padding: 0;
+  }
+
+  .aside-links-tag {
+    font-size: 13px;
+    padding: 0.5rem 1rem;
+  }
+
+  .sale-card-texts {
+    padding-left: 20px;
+  }
+
+  .sale-card-texts > .card-title {
+    font-size: 14px;
+  }
+
+  .sale-card-texts > .card-text {
+    font-size: 30px;
+  }
+
+  .sale-links {
+    margin-right: -12px;
+    margin-left: -18px;
+  }
+
+  .sales-links-items {
+    width: 110%;
+  }
+
+  .recent-orders-items-div {
+    width: 33%;
+  }
+
+  .recent-orders-items-mobileView {
+    width: 30%;
+  }
+
+  .recent-orders-items-mobileView2 {
+    width: 36%;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  .sales-links-tag {
+    font-size: 11px;
+  }
+
+  .recent-orders-items-div > p {
+    font-size: 11px;
+  }
+
+  .recent-orders-items-mobileView {
+    width: 19%;
+  }
+
+  .recent-orders-items-mobileView2 {
+    width: 44%;
+  }
+
+  .aside-links-tag {
+    font-size: 9px;
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .aside-links {
+  }
+
+  .aside-links-tag {
+    font-size: 11px;
+    padding: 0.5rem 1rem;
+  }
+
+  .sale-card-texts > .card-text {
+    font-size: 25px;
+  }
+
+  .sales-links-tag {
+    font-size: 8px;
+  }
+
+  .sale-links-div {
+    width: 25%;
+  }
+
+  .recent-orders-text > p {
+    font-size: 12px;
+  }
+
+  .recent-orders-items-div > p {
+    font-size: 11px;
+  }
+
+  .recent-orders-items-mobileView {
+    width: 28%;
+  }
+
+  .recent-orders-items-mobileView2 {
+    width: 39%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .sale-card-texts > .card-text {
+    font-size: 20px;
+  }
+
+  .sale-card-texts {
+    margin-top: 50px;
+  }
+
+  .recent-orders-text > h3 {
+    font-size: 12px;
+  }
+
+  .recent-orders-items-div > h3 {
+    font-size: 11px;
+  }
+
+  .recent-orders-items-div > p {
+    font-size: 9px;
+  }
+
+  .recent-orders-items-mobileView {
+    width: 19%;
+  }
+
+  .recent-orders-items-mobileView2 {
+    width: 44%;
+  }
+
+  .aside-links-tag {
+    font-size: 9px;
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .total-sales-header > h3 {
+    font-size: 15px;
+  }
+  .sale-card-texts > .card-title {
+    font-size: 11px;
+  }
+  .sales-links-items {
+    width: 150%;
+  }
+  .sale-links {
+    margin-right: 0;
+  }
+
+  .recent-orders-items-div > h3 {
+    font-size: 10px;
+  }
+
+  .recent-orders-items-div > p {
+    font-size: 8px;
+  }
+
+  .recent-orders-items-div > h3 {
+    font-size: 9px;
+  }
+
+  .recent-orders-items-div > p {
+    font-size: 7px;
+  }
+
+  .recent-orders-items-mobileView {
+    width: 18%;
+  }
+
+  .recent-orders-items-mobileView2 {
+    width: 49%;
+  }
+
+  .aside-links-tag {
+    font-size: 9px;
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-3 {
+    max-width: 100%;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    /* Nav Bar */
+    .form-inline > .search {
+      width: 36em;
+    }
+
+    .navbar-container {
+      /* display: none; */
+    }
+
+    .multiple-container-row {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+    }
+
+    .performance-payment-header {
+      margin-top: 10%;
+    }
+    .recent-orders-amount > .card-text {
+      text-align: end;
+    }
+  }
+}
